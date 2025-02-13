@@ -2,3 +2,4 @@ yfinance
 torch
 numpy
 matplotlib
+pandas
