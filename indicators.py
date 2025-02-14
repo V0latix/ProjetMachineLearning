@@ -36,7 +36,7 @@ def STD(data, n):
 
 import pandas as pd
 
-def bollinger_bands(data, n, num_std):
+def BollingerBands(data, n, num_std):
     "Calcule les Bandes de Bollinger"
     ma = MA(data, n)
     std = STD(data, n)
