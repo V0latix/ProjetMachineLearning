@@ -5,3 +5,4 @@ matplotlib
 pandas
 os
 importlib
+sklearn.model_selection
