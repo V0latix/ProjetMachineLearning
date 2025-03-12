@@ -19,6 +19,7 @@ indices = {
 # Variable de test
 isimport = True
 
+# Paramètres des indicateurs
 params_ma = [5, 15]
 params_ema = [5, 15]
 params_rsi = [14]
