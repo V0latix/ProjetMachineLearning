@@ -20,12 +20,12 @@ def RSI(data, n):
 
     return rsi
 
-def MACD(data, n_fast, n_slow):
+def MACD(data, n_fast, n_slow, n_signal):
     "Calcule le MACD (Moving Average Convergence Divergence)"
     ema_fast = EMA(data, n_fast)
     ema_slow = EMA(data, n_slow)
     macd = ema_fast - ema_slow
-    signal = EMA(macd, 9)
+    signal = EMA(macd, n_signal)
 
     return macd, signal
 
