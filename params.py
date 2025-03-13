@@ -17,7 +17,7 @@ indices = {
 }
 
 # Variable de test
-isimport = True
+isimport = False
 
 # Paramètres des indicateurs
 params_ma = [5, 15]
