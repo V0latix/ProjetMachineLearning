@@ -1,3 +1,4 @@
+import os
 # Date d'extraction
 start_date = '1950-01-01'
 end_date = '2025-01-01'
@@ -17,7 +18,7 @@ indices = {
 }
 
 # Variable de test
-isimport = False
+isimport = True
 
 # Paramètres des indicateurs
 params_ma = [5, 15]
@@ -26,3 +27,12 @@ params_rsi = [14]
 params_macd = [12, 26, 9]
 params_std = [10, 20]
 params_bollinger = [20, 2]
+
+# Paramètres de la stratégie
+test_size = 0.2
+
+
+
+# Les immuables
+base_dir = os.path.join(os.getcwd(), "bases")
+plot_dir = os.path.join(os.getcwd(), "plots")
