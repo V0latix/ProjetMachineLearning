@@ -3,6 +3,6 @@ torch
 numpy
 matplotlib
 pandas
-os
 importlib
-sklearn.model_selection
+scikit-learn
+seaborn

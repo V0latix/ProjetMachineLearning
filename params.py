@@ -1,6 +1,6 @@
 import os
 # Date d'extraction
-start_date = '1950-01-01'
+start_date = '1962-01-01'
 end_date = '2025-01-01'
 
 # Liste des indices
@@ -18,17 +18,18 @@ indices = {
 }
 
 # Variable de test
-isimport = True
+isimport = False
 
 # Paramètres des indicateurs
-params_ma = [5, 15]
-params_ema = [5, 15]
+params_ma = [30]
+params_ema = [5]
 params_rsi = [14]
 params_macd = [12, 26, 9]
 params_std = [10, 20]
 params_bollinger = [20, 2]
 
 # Paramètres de la stratégie
+norm_window = 252
 test_size = 0.2
 
 
