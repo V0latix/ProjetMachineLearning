@@ -1,6 +1,6 @@
 import os
 # Date d'extraction
-start_date = '1962-01-01'
+start_date = '1982-04-20'
 end_date = '2025-01-01'
 
 # Liste des indices
@@ -31,6 +31,9 @@ params_bollinger = [20, 2]
 # Paramètres de la stratégie
 norm_window = 252
 test_size = 0.2
+params_ridge = [0.001]
+params_lasso = [0.001]
+params_elasticnet = [0.001, 0.5]
 
 
 
