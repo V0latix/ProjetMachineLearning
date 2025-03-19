@@ -6,19 +6,19 @@ end_date = '2025-01-01'
 # Liste des indices
 indices = {
     "SP500": "^GSPC",
-    "Nasdaq100": "^NDX",
-    "DowJones": "^DJI",
-    "Russell2000": "^RUT",
-    "FTSE100": "^FTSE",
-    "DAX": "^GDAXI",
-    "CAC40": "^FCHI",
-    "Nikkei225": "^N225",
-    "HangSeng": "^HSI",
-    "EuroStoxx50": "^STOXX50E"
+    # "Nasdaq100": "^NDX",
+    # "DowJones": "^DJI",
+    # "Russell2000": "^RUT",
+    # "FTSE100": "^FTSE",
+    # "DAX": "^GDAXI",
+    # "CAC40": "^FCHI",
+    # "Nikkei225": "^N225",
+    # "HangSeng": "^HSI",
+    # "EuroStoxx50": "^STOXX50E"
 }
 
 # Variable de test
-isimport = False
+isimport = True
 
 # Paramètres des indicateurs
 params_ma = [30]
